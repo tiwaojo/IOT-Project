@@ -1,0 +1,26 @@
+version: '3.9'
+services:
+  # assignment2:
+  #   container_name: assignment2-mqtt
+  #   build: .
+  #   # ports:
+  #   #   - "8000:5000"
+  #   # volumes:
+  #   #   - .:/code
+  #   #   - logvolume01:/var/log
+  #   # environment:
+  #   #   - name=value
+  #   # image: python:3
+  #   depends_on:
+  #     - hivemq
+
+  hivemq:
+    container_name: hivemq-broker
+    image: hivemq/hivemq4:latest
+    # hostname: localhost
+    ports:
+      - "8080:8080"
+      - "1883:1883"
+    # environment:
+    #   HIVEMQ_BIND_ADDRESS: "0.0.0.0"
+
