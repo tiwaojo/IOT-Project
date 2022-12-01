@@ -15,7 +15,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.urls import include,path
+from rest_framework import routers
+from dashboard import views
+
+admin.autodiscover()
+router = routers.DefaultRouter()
+# router.register('temperature', views.ModeViewSet)
+# router.register('humidity', views.StateViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include(router.urls)),
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    path('dashboard/', include('dashboard.urls')),
 ]

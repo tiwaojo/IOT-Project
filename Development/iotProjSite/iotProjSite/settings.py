@@ -25,12 +25,14 @@ SECRET_KEY = 'django-insecure-rh27flyx@zs17wkn3e#jcdub@2a&wi7@uau=qf@a-2v(&y12ol
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*'] # should be changed
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'dashboard',
+    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
