@@ -1,4 +1,4 @@
-# SOFE4610 FinalProject - Smart kitchen ventilation system
+# SOFE4610 FinalProject - Smart Kitchen Ventilation System
 
 ## Group 4 members
 Waleed El Alawi (100764573)<br> 
