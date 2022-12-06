@@ -2,9 +2,10 @@
 #include "DHT.h"
 #include <SoftwareSerial.h>
 
+#include <Servo.h>
 
 
-#define DHTPIN A4
+#define DHTPIN A0
 #define DHTTYPE DHT11
 
 // dht DHT;
@@ -16,7 +17,9 @@ const int dht11 = A0;
 float degreesC;
 unsigned long timer = 0;
 int sendStatus = 0;
+Servo myservo;  // create servo object to control a servo
 
+int pos = 0;  // variable to store the servo position
 void setup() {
 
   //Setup and flush the serials to begin
@@ -24,6 +27,9 @@ void setup() {
   Serial.begin(9600);
   btSerial.flush();
   Serial.flush();
+
+  // Servo setup
+  myservo.attach(9);  // attaches the servo on pin 9 to the servo object
 }
 
 void loop() {
@@ -50,5 +56,23 @@ void loop() {
 
     //Reset the timer for another 10 seconds.
     timer = millis() + 10000;
+  }
+    runFan();
+
+  // Run Fan if cmd is received
+  // int cmd;
+  // if (btSerial.read(cmd) == 1) {
+  // }
+}
+
+void runFan() {
+  for (pos = 0; pos <= 180; pos += 1) {  // goes from 0 degrees to 180 degrees
+    // in steps of 1 degree
+    myservo.write(pos);  // tell servo to go to position in variable 'pos'
+    delay(15);           // waits 15 ms for the servo to reach the position
+  }
+  for (pos = 180; pos >= 0; pos -= 1) {  // goes from 180 degrees to 0 degrees
+    myservo.write(pos);                  // tell servo to go to position in variable 'pos'
+    delay(15);                           // waits 15 ms for the servo to reach the position
   }
 }

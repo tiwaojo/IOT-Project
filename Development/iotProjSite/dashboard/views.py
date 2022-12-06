@@ -15,3 +15,6 @@ from django.http import HttpResponse
 
 def index(request):
     return render(request,"dashboard/index.html")
+
+def snoop(request):
+    return HttpResponse("Smoke school everyday")
