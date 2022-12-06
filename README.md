@@ -1,6 +1,6 @@
 # Project Title: Smart Kitchen Ventilation System
 
-Navgation: Table
+Navgation: Table<br>
 Requierments<br>
 User and Backend Requierment:<br>
 
