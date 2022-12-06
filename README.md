@@ -1,6 +1,7 @@
 # Project Title: Smart Kitchen Ventilation System
 
-Project Repository Structure and Navigation
+Project Repository Structure and Navigation<br>
+
 Architecture Design<br>
 [Architecture Design Report](https://github.com/Waleed20210/IOT-Project/blob/main/Architecture%20Design/Architectural%20Design%20Report.pdf)
 
