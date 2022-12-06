@@ -19,7 +19,7 @@ Project Proposal<br>
 Progress Report<br>
 [Progress Report Report](https://github.com/Waleed20210/IOT-Project/blob/main/Progress%20Report/Smart%20Kitchen%20Ventilation%20System%20Design%20Report.pdf)<br>
 
-##Project Structure
+## Project Structure
 
 '''sh
 .
