@@ -19,6 +19,26 @@ Project Proposal<br>
 Progress Report<br>
 [Progress Report Report](https://github.com/Waleed20210/IOT-Project/blob/main/Progress%20Report/Smart%20Kitchen%20Ventilation%20System%20Design%20Report.pdf)<br>
 
+##Project Structure
+
+'''sh
+.
+|-- [4.0K]  Acceptance\ Test
+|-- [4.0K]  Architecture\ Design
+|-- [4.0K]  Code
+|   |-- [4.0K]  Arduino
+|   |   |-- [4.0K]  project_sketch
+|   |   `-- [4.0K]  wifi-sketch
+|   |-- [4.0K]  Django\ Application
+|   |   |-- [4.0K]  dashboard
+|   |   |   |-- [4.0K]  migrations
+|   |   |   `-- [4.0K]  templates
+|   |   `-- [4.0K]  iotProjSite
+|   `-- [4.0K]  PI
+|-- [4.0K]  Progress\ Report
+`-- [4.0K]  Proposal
+'''
+
 ## Team - Group 4 
 Waleed El Alawi (100764573)<br> 
 Tiwaloluwa Ojo  (100700622)<br>
