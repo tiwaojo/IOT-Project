@@ -8,7 +8,7 @@ Architecture Design<br>
 Code<br>
 Arduino: [Arduino Code](https://github.com/Waleed20210/IOT-Project/tree/main/Code/Arduino)<br> 
 Django Application: [Django Application code](https://github.com/Waleed20210/IOT-Project/tree/main/Code/Django%20Application)<br>
-PI: [PI Code](https://github.com/Waleed20210/IOT-Project/tree/main/Code/PI)<br>
+RASPBERRY PI: [RASPBERRY PI Code](https://github.com/Waleed20210/IOT-Project/tree/main/Code/PI)<br>
 
 Acceptance Test<br>
 [Acceptance Test Report](https://github.com/Waleed20210/IOT-Project/blob/main/Acceptance%20Test/Acceptance%20Testing.pdf)<br>
