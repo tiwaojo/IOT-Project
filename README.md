@@ -11,7 +11,7 @@ Design Decision<br>
 Code<br>
 
 Acceptance Test<br>
-[Acceptance Test Report](https://github.com/Waleed20210/IOT-Project/tree/main/Acceptance%20Test)<br>
+[Acceptance Test Report](https://github.com/Waleed20210/IOT-Project/blob/main/Acceptance%20Test/Acceptance%20Testing.pdf)<br>
 
 ## Team Members 
 Waleed El Alawi (100764573)<br> 
