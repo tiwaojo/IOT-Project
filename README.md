@@ -21,7 +21,7 @@ Progress Report<br>
 
 ## Project Structure
 
-'''sh
+```sh
 .
 |-- [4.0K]  Acceptance\ Test
 |-- [4.0K]  Architecture\ Design
@@ -37,7 +37,7 @@ Progress Report<br>
 |   `-- [4.0K]  PI
 |-- [4.0K]  Progress\ Report
 `-- [4.0K]  Proposal
-'''
+```
 
 ## Team - Group 4 
 Waleed El Alawi (100764573)<br> 
