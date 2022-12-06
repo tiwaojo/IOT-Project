@@ -4,11 +4,17 @@
 Architecture Design<br>
 [Architecture Design Report](https://github.com/Waleed20210/IOT-Project/tree/main/Architecture%20Design)<br>
 
-Architecture Sequence Diagram<br>
-
 Project Proposal<br>
+[Project Proposal Report](https://github.com/Waleed20210/IOT-Project/tree/main/Proposal)<br>
+
+Progress Report<br>
+[ Progress Report Report](https://github.com/Waleed20210/IOT-Project/tree/main/Progress%20Report)<br>
 
 Code<br>
+Arduino:[Arduino Code](https://github.com/Waleed20210/IOT-Project/tree/main/Code/Arduino)<br> 
+Django Application:[Backend code](https://github.com/Waleed20210/IOT-Project/tree/main/Code/Django%20Application)<br>
+PI:[PI Code](https://github.com/Waleed20210/IOT-Project/tree/main/Code/PI)<br>
+
 
 Acceptance Test<br>
 [Acceptance Test Report](https://github.com/Waleed20210/IOT-Project/blob/main/Acceptance%20Test/Acceptance%20Testing.pdf)<br>
