@@ -6,7 +6,7 @@ Architecture Design<br>
 
 Architecture Sequence Diagram<br>
 
-Design Decision<br>
+Project Proposal<br>
 
 Code<br>
 
