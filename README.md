@@ -19,7 +19,7 @@ Project Proposal<br>
 Progress Report<br>
 [Progress Report Report](https://github.com/Waleed20210/IOT-Project/blob/main/Progress%20Report/Smart%20Kitchen%20Ventilation%20System%20Design%20Report.pdf)<br>
 
-## Team Members 
+## Team - Group 4 
 Waleed El Alawi (100764573)<br> 
 Tiwaloluwa Ojo  (100700622)<br>
 Preet Patel (100708239) <br>
