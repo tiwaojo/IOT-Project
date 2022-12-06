@@ -5,7 +5,7 @@ Requierments<br>
 User and Backend Requierment:<br>
 
 Architecture Design<br>
-AD:[here]()
+AD:[here](https://github.com/Waleed20210/IOT-Project/tree/main/Architecture%20Design)<br>
 Architecture Sequence Diagram<br>
 Design Decision<br>
 Code<br>
