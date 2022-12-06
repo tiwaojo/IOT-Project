@@ -1,14 +1,14 @@
 # Project Title: Smart Kitchen Ventilation System
 
-#Navgation: Table
-#Requierments
-#User and Backend Requierment:
+Navgation: Table
+Requierments<br>
+User and Backend Requierment:<br>
 
-#Architecture Design
-#Architecture Sequence Diagram
-#Design Decision
-#Code
-#Acceptance Test
+Architecture Design<br>
+Architecture Sequence Diagram<br>
+Design Decision<br>
+Code<br>
+Acceptance Test<br>
 
 
 ## Team members 
