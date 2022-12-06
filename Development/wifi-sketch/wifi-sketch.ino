@@ -1,8 +1,8 @@
-/*  ___   ___  ___  _   _  ___   ___   ____ ___  ____  
- * / _ \ /___)/ _ \| | | |/ _ \ / _ \ / ___) _ \|    \ 
+/*  ___   ___  ___  _   _  ___   ___   ____ ___  ____
+ * / _ \ /___)/ _ \| | | |/ _ \ / _ \ / ___) _ \|    \
  *| |_| |___ | |_| | |_| | |_| | |_| ( (__| |_| | | | |
  * \___/(___/ \___/ \__  |\___/ \___(_)____)___/|_|_|_|
- *                  (____/ 
+ *                  (____/
  * Osoyoo W5100 web server lesson 2
  * Send DHT11 temperature data to remote browser
  * tutorial url: https://osoyoo.com/?p=9988
@@ -21,8 +21,8 @@
 #include "SoftwareSerial.h"
 SoftwareSerial softserial(4, 5);  // D4 to ESP_TX, D5 to ESP_RX by default
 
-char ssid[] = "TheCrucible";   // replace *** with your wifi network SSID (name)
-char pass[] = "2547EC274D76";  // replace *** with your wifi network password
+char ssid[] = "";   // replace *** with your wifi network SSID (name)
+char pass[] = "";  // replace *** with your wifi network password
 int status = WL_IDLE_STATUS;   // the Wifi radio's status
 
 unsigned int local_port = 8888;   // local port to listen for UDP packets
@@ -45,8 +45,6 @@ HttpClient httpClient = HttpClient(client, server, port);
 unsigned long lastConnectionTime = 0;          // last time you connected to the server, in milliseconds
 const unsigned long postingInterval = 10000L;  // delay between updates, in milliseconds
 
-// A UDP instance to let us send and receive packets over UDP
-// WiFiEspUDP Udp;
 
 
 DHT dht(DHT11_PIN, DHTTYPE);  // DHT instance
@@ -58,7 +56,7 @@ Servo myservo;  // create servo object to control a servo
 int pos = 0;  // variable to store the servo position
 
 void setup() {
-  // httpClient.beginRequest()gin("https://localhost:8080/dashboard");
+  // httpClient.beginRequest("https://localhost:8080/dashboard");
 
   Serial.begin(9600);  // initialize serial for debugging
   softserial.begin(115200);
@@ -89,9 +87,8 @@ void setup() {
     httpClient.setTimeout(10000);
 
   // Servo setup
-  // myservo.attach(9);  // attaches the servo on pin 9 to the servo object
+  myservo.attach(9);  // attaches the servo on pin 9 to the servo object
 
-  // Udp.begin(local_port);
 }
 
 void loop() {
@@ -102,7 +99,7 @@ void loop() {
   float humidity = dht.readHumidity();
 
   String temp = String(temperature);
-  // String humid = String(humidity)
+  String humid = String(humidity)
 
   String msg = "Temperature:" + temp + "C, Humid:" + humidity + "%" + '\n';
   Serial.print(msg);

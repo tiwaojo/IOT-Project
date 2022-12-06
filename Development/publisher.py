@@ -1,7 +1,7 @@
-#MQTT Publish Demo
+# MQTT Publishers
 
-#Publish two messages to tow different topic
-#
+# Publish MQTT messages from the serial(Arduino) to Django.
+# It will publish the temperature and humidity data
 
 import serial
 import numpy as np

@@ -1,11 +1,10 @@
+# Grabs temperature and humidity from dht sensors.
+# Doesn't work due to PI not haivng Analog Pins
+
 import time
 import board
 import adafruit_dht
-# import psutil
 
-# for proc in psutil.process_iter():
-#     if proc.name() == 'libgpiod_pulsein' or proc.name() == 'libgpiod_pulsei':
-#         proc.kill()
 sensor = adafruit_dht.DHT11(pin=board.GPIo14,use_pulseio=True)
 while True:
     try:

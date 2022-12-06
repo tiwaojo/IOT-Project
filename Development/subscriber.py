@@ -1,4 +1,7 @@
-#MQTT Client
+#MQTT Subscribers
+
+#Subscribe to MQTT messages from the Django app and publish to serial(Arduino)
+
 import serial
 import numpy as np
 import time
@@ -24,19 +27,14 @@ def on_message(client, userdata, msg):
     if (msg.payload == 1):
         print("Received message #1, do something")
         ser.write(raw_data)
-		#do something
-    # if msg.payload == "World":
-    #     print ("Received message #2, do something else")
-	# 	#do something else
 
-# MQTT_5_0-8c3ef6c3-42b7-476d-9464-4fa862509496
 #create an MQTT client and attach our routines to it
 
 client = mqtt.Client()
 client.on_connect = on_connect
 client.on_message = on_message
 
-client.connect ("localhost", 8883, 60)
+client.connect ("MQTT_5_0-8c3ef6c3-42b7-476d-9464-4fa862509496", 8883, 60)
 
 
 
