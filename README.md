@@ -12,7 +12,7 @@ Progress Report<br>
 
 Code<br>
 Arduino: [Arduino Code](https://github.com/Waleed20210/IOT-Project/tree/main/Code/Arduino)<br> 
-Django Application: [Backend code](https://github.com/Waleed20210/IOT-Project/tree/main/Code/Django%20Application)<br>
+Django Application: [Django Application code](https://github.com/Waleed20210/IOT-Project/tree/main/Code/Django%20Application)<br>
 PI: [PI Code](https://github.com/Waleed20210/IOT-Project/tree/main/Code/PI)<br>
 
 
