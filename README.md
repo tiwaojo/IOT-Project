@@ -3,9 +3,13 @@
 
 Architecture Design<br>
 AD:[Architecture Design](https://github.com/Waleed20210/IOT-Project/tree/main/Architecture%20Design)<br>
+
 Architecture Sequence Diagram<br>
+
 Design Decision<br>
+
 Code<br>
+
 Acceptance Test<br>
 
 
