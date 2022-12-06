@@ -8,7 +8,7 @@ Project Proposal<br>
 [Project Proposal Report](https://github.com/Waleed20210/IOT-Project/tree/main/Proposal)<br>
 
 Progress Report<br>
-[ Progress Report Report](https://github.com/Waleed20210/IOT-Project/tree/main/Progress%20Report)<br>
+[Progress Report Report](https://github.com/Waleed20210/IOT-Project/blob/main/Progress%20Report/Smart%20Kitchen%20Ventilation%20System%20Design%20Report.pdf)<br>
 
 Code<br>
 Arduino: [Arduino Code](https://github.com/Waleed20210/IOT-Project/tree/main/Code/Arduino)<br> 
