@@ -2,7 +2,7 @@
 
 
 Architecture Design<br>
-[Architecture Design](https://github.com/Waleed20210/IOT-Project/tree/main/Architecture%20Design)<br>
+[Architecture Design Report](https://github.com/Waleed20210/IOT-Project/tree/main/Architecture%20Design)<br>
 
 Architecture Sequence Diagram<br>
 
